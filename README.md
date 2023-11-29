@@ -8,15 +8,23 @@ The dataset used for training and evaluation consists of historical lending acti
 ## Model Evaluation
 The classification report below showcases the model's performance on the test dataset. This report encompasses crucial metrics such as precision, recall, F1-score, and accuracy. These metrics collectively offer insights into the model's ability to distinguish between creditworthy and non-creditworthy borrowers.
 
-print(classification_report(y_oversampled, l_r_predictions2))
+
               precision    recall  f1-score   support
 
            0       0.99      0.99      0.99     56271
            1       0.99      0.99      0.99     56271
 
     accuracy                           0.99    112542
-   macro avg       0.99      0.99      0.99    112542
+  
+macro avg       0.99      0.99      0.99    112542
 weighted avg       0.99      0.99      0.99    112542
+
+
+
+
+
+
+
 
 ## Interpretation of Metrics
 Precision: Reflects the accuracy of loan approval predictions.
